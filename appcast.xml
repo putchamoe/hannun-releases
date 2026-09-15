@@ -9,5 +9,20 @@
       판이 나오면 scripts/release.sh 가 generate_appcast 로 <item> 을 채움.
       비어 있는 채널은 유효한 피드이며, Sparkle 은 "최신 판을 쓰고 있습니다" 로 답함.
     -->
+    <item>
+      <title>1.0.1</title>
+      <pubDate>Tue, 15 Sep 2026 07:53:57 +0000</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>자동 업데이트 경로 확인용 시험 판임. 기능 변경 없음.</p>
+      ]]></description>
+      <enclosure
+        url="https://github.com/putchamoe/hannun-releases/releases/download/v1.0.1-test/HANNUN-1.0.1.zip"
+        sparkle:edSignature="3EzxSQN3RcrWoGxcq99xmGOCHah04EQAuxnP7+ebOCYAbxf+BADKe9Ypb10u/gPO+VwClErxQutPLts6eT1rBQ=="
+        length="11055558"
+        type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
