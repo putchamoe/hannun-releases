@@ -1,13 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
-  <channel>
-    <title>한눈 (Hannun)</title>
-    <link>https://putchamoe.com/hannun-releases/appcast.xml</link>
-    <description>한눈 웹 배포판 업데이트 피드</description>
-    <language>ko</language>
-    <!--
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>한눈 (Hannun)</title>
+        <link>https://putchamoe.com/hannun-releases/appcast.xml</link>
+        <description>한눈 웹 배포판 업데이트 피드</description>
+        <language>ko</language>
+        <!--
       판이 나오면 scripts/release.sh 가 generate_appcast 로 <item> 을 채움.
       비어 있는 채널은 유효한 피드이며, Sparkle 은 "최신 판을 쓰고 있습니다" 로 답함.
     -->
-  </channel>
+        <item>
+            <title>1.0</title>
+            <pubDate>Thu, 01 Oct 2026 15:58:54 +0900</pubDate>
+            <link>https://putchamoe.com/hannun/</link>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/putchamoe/hannun-releases/releases/download/v1.0/Hannun-1.0.dmg" length="12072172" type="application/octet-stream" sparkle:edSignature="80jHj4Ei2Rx6T2uyhz9kjjeKpMcJtjzVP4DJUgPs7dUT3MUStiZR8YbzpF542kS4NOtBwO4c/b353gGaBWZjCA=="/>
+        </item>
+    </channel>
 </rss>
