@@ -6,7 +6,17 @@
         <description>한눈 웹 배포판 업데이트 피드</description>
         <language>ko</language>
         <!--
-      판이 나오면 scripts/release.sh 가 generate_appcast 로 <item> 을 채움.
+      판이 나오면 scripts/release.sh 가 generate_appcast 로 <item>
+            <title>1.0.1</title>
+            <pubDate>Tue, 06 Oct 2026 09:31:09 +0900</pubDate>
+            <link>https://putchamoe.com/hannun/</link>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/putchamoe/hannun-releases/releases/download/v1.0.1/Hannun-1.0.1.dmg" length="12064896" type="application/octet-stream" sparkle:edSignature="f0LZ0CsJhrYsO1pzDznrD03jOVa6bNdM9JtWse3r3ROzYoYoAlgy2ThVLQF7pofCkCvuRlhfnizJ9sIQN8WTDw=="/>
+        </item>
+        <item> 을 채움.
       비어 있는 채널은 유효한 피드이며, Sparkle 은 "최신 판을 쓰고 있습니다" 로 답함.
     -->
         <item>
